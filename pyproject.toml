@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "chapter-8"
 version = "0.1"
-dependencies = ["numpy", "ipython"]
+dependencies = ["numpy"]
 
 [project.optional-dependencies]
 all = [
@@ -16,8 +16,10 @@ all = [
     "pandas",
     "ipdb",
     "debugpy",
+    "sys",
+    "os",
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["scripts"]
+packages = ["example_code", "groups", "scripts"]
 
