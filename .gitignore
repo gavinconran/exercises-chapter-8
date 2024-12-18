@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# my stuff
+quiz8.txt
+
 # C extensions
 *.so
 
